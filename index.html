@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AleloEpico.Porfolio</title>
+
+    <link rel="shortcut icon" href="./img/robot.svg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- iconsScout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+
+
+</head>
+
+<body>
+    <header class="profile-container">
+        <!-- Theme button -->
+        <i class="ri-contrast-2-fill change-theme" id="theme-button"></i>
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="./img/Foto1.jpg" alt="">
+                    </div>
+                </div>
+                <h2 class="profile__name">Alejandro Ramirez</h2>
+                <h3 class="profile__proffesion">Full Stack developer</h3>
+
+                <div class="bio">
+                    <p>A detail-oriented full-stack developer dedicated to crafting user-friendly web applications.
+                        Continuously learning and eager to collaborate with fellow developers, Let's create something
+                        extraordinary together!</p>
+                </div>
+
+
+
+                <ul class="profile__social">
+                    <a href="https://www.facebook.com/Alejohuertaz/" target="_blank" class="profile__social-link">
+                        <i class="ri-facebook-box-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/alejandro-ramirez-huertas-839459108/" target="_blank"
+                        class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/AlejoEpico/" target="_blank" class="profile__social-link">
+                        <!-- <i class="ri-github-fill"></i> -->
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number"></h3>
+                    <i class="ri-user-shared-2-line"></i>
+                    <p class="profile__info-description">Problem <br>Solving</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">8</h3>
+                    <i class="ri-team-line"></i>
+                    <p class="profile__info-description">Team <br> Work</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">8.5</h3>
+                    <i class="ri-chat-forward-line"></i>
+                    <p class="profile__info-description">Comunication <br> skills</p>
+                </div>
+            </div> -->
+            <div class="profile__buttons">
+                <a download href="AlejandroRamirez-CV.pdf" target="_blank" class="button">Download CV
+                    <i class="ri-download-2-line"></i>
+                </a>
+                <div class="profile__buttons-small">
+                    <!-- insert a real number plus country code -->
+                    <a href="https://api.whatsapp.com/send?phone=573214548812&text=Hey,%20contact%20me!" target="_blank"
+                        class="button button__small button__grey">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <!-- insert your brand name or profile -->
+                    <a href="https://www.facebook.com/Alejohuertaz" target="_blank"
+                        class="button button__small button__grey">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                    <a href="https://platzi.com/p/AlejoEpico/" target="_blank"
+                        class="button button__small button__grey">
+                        <img src="./img/platzi-svgrepo-com.svg" alt="Platzi" width="20" height="20">
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="filters containers">
+            <!-- filters tabs -->
+            <ul class="filters__contet">
+
+                <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+
+                <button class="filters__button " data-target="#skills">Skills</button>
+            </ul>
+            <div class="filters__sections">
+
+                <!-- projects -->
+                <div class="projects__content grid filters__active" data-content id="projects">
+
+                    <article class="projects__card">
+                        <img src="./img/S_23.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitles">Web</span>
+                                <h3 class="project__title">html-css</h3>
+                                <a href="https://github.com/AlejoEpico/Simple-ID-Card-Design-with-HTML-and-CSS/blob/main/BussinesCard_0000.jpg"
+                                    class="projects__button button button__small" target="_blank">
+                                    <i class="ri-html5-line"></i> <i class="ri-css3-line"></i> </a>
+
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="./img/S_25.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitles">Vanilla</span>
+                                <h3 class="project__title">JavaScript</h3>
+                                <a href="https://github.com/AlejoEpico/A_Memory_Game/blob/main/Screenshots/Apokemon_MemoryGame_00.jpg"
+                                    class="projects__button button button__small" target="_blank">
+                                    <?xml version="1.0" ?><svg fill="none" height="24" viewBox="0 0 24 24" width="24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 11.25C14 10.2835 14.7835 9.5 15.75 9.5H17.25C17.6642 9.5 18 9.83579 18 10.25C18 10.6642 17.6642 11 17.25 11H15.75C15.6119 11 15.5 11.1119 15.5 11.25V12.75C15.5 12.8881 15.6119 13 15.75 13H16.25C17.2165 13 18 13.7835 18 14.75V16.25C18 17.2165 17.2165 18 16.25 18H14.75C14.3358 18 14 17.6642 14 17.25C14 16.8358 14.3358 16.5 14.75 16.5H16.25C16.3881 16.5 16.5 16.3881 16.5 16.25V14.75C16.5 14.6119 16.3881 14.5 16.25 14.5H15.75C14.7835 14.5 14 13.7165 14 12.75V11.25Z"
+                                            fill="#ffff" />
+                                        <path
+                                            d="M12.75 10.25C12.75 9.83579 12.4142 9.5 12 9.5C11.5858 9.5 11.25 9.83579 11.25 10.25V16.25C11.25 16.3881 11.1381 16.5 11 16.5H9.75C9.33579 16.5 9 16.8358 9 17.25C9 17.6642 9.33579 18 9.75 18H11C11.9665 18 12.75 17.2165 12.75 16.25V10.25Z"
+                                            fill="#ffff" />
+                                        <path
+                                            d="M3 6.25V17.75C3 19.5449 4.45507 21 6.25 21H17.75C19.5449 21 21 19.5449 21 17.75V6.25C21 4.45507 19.5449 3 17.75 3H6.25C4.45507 3 3 4.45507 3 6.25ZM6.25 4.5H17.75C18.7165 4.5 19.5 5.2835 19.5 6.25V17.75C19.5 18.7165 18.7165 19.5 17.75 19.5H6.25C5.2835 19.5 4.5 18.7165 4.5 17.75V6.25C4.5 5.2835 5.2835 4.5 6.25 4.5Z"
+                                            fill="#ffff" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="./img/S_22.jpg " alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitles">Back-end</span>
+                                <h3 class="project__title">NodeDeliveryApp</h3>
+                                <a href="https://github.com/AlejoEpico/NodeDelivery/blob/main/Preview_screenshots/NodeDeliveryApp_00.jpg"
+                                    target="_blank" class="projects__button button button__small">
+                                    <i class="ri-terminal-window-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="./img/S_24.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitles">Others</span>
+                                <h3 class="project__title">.py/C#/.sql</h3>
+                                <a href="https://github.com/AlejoEpico/A_basicVideoGame.js/blob/main/Preview_screenshots/Unity_DemoGame_01.jpg"
+                                    target="_blank" class="projects__button button button__small">
+                                    <i class="ri-qr-code-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <!-- <img src="../img/go/S_09.jpg" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitles">Project</span>
+                                <h3 class="project__title">Example Projects</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link-m"></i>
+                                </a>
+                            </div>
+                        </div> -->
+                    </article>
+
+                </div>
+                <!-- skills -->
+                <div class="skills__content grid  " data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Fronted-Developer</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Html</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Git/GitHub</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend-Developer</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <!-- <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+
+                                </div> -->
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">squl/FireBase</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Phyton</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Node.js</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169 AlejoEpico. All rights reserved.
+            <!-- &#169 Alejo RH+. All right reserved. -->
+        </span>
+    </footer>
+
+    <script src="./index.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="./scrollreveal.min.js"></script>
+
+</body>
+
+
+
+</html>
